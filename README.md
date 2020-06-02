@@ -64,6 +64,6 @@ Python은 list를 dict의 key로 쓰거나 set의 원소로 사용할 수 없습
 
 pygame이 돌아갈 주된 파일인 [src/rushhour_gui.py](src/rushhour_gui.py)를 작성한 브랜치입니다. 굳이 이 브랜치를 만든 이유는 이 상태에 기반하여 다른 화면을 만들거나 UI의 수정을 가하면 됩니다. 또한 완성된 브랜치는 master 브랜치가 아닌 이 브랜치에 merge하여 종합한 UI가 정상작동하는지 확인한 후 master 브랜치로 merge하는 중간 branch 역할을 할 예정입니다.
 
-우선 이 브랜치에서는 간단하게 만든 타이틀 화면의 내용이 포함되어있습니다. 타이틀 화면을 구성하기 위한 버튼 클래스를 만든 파일인 [src/button.py](src/button.py)도 같이 포함되어있습니다.
+우선 이 브랜치에서는 간단하게 만든 타이틀 화면의 내용이 포함되어있습니다. 타이틀 화면을 구성하기 위한 버튼 클래스를 만든 파일인 [src/button.py](src/button.py)와 [폰트들](resources/fonts/)도 같이 포함되어있습니다.
 
 *이 브랜치의 작동을 확인하려면 pygame의 설치가 필요합니다.* (이것 때문에 branch를 분리한 것도 있습니다)
